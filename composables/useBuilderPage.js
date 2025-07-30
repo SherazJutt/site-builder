@@ -31,7 +31,7 @@ export function useBuilderPage() {
 		try {
 			const res = await $pb.collection("pages").getOne("v08v1l61xi5j2j5");
 			page.value = res.json;
-			// console.log(res);
+			console.log(res);
 		} catch (error) {
 			console.log(error.data);
 		}

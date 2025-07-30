@@ -1,0 +1,172 @@
+{
+    "collectionId": "pbc_3945946014",
+    "collectionName": "pages",
+    "created": "2025-02-03 08:15:14.534Z",
+    "id": "v08v1l61xi5j2j5",
+    "json": [
+        {
+            "content": {
+                "text": "Enter heading text"
+            },
+            "customizations": {
+                "level": 1,
+                "size": "text-3xl",
+                "style": "underline",
+                "weight": "font-extrabold"
+            },
+            "customizer": [
+                {
+                    "category": "content",
+                    "items": [
+                        {
+                            "component": "input",
+                            "label": "Text",
+                            "ref": "text",
+                            "type": "text"
+                        }
+                    ],
+                    "label": "Content"
+                },
+                {
+                    "category": "customizations",
+                    "items": [
+                        {
+                            "component": "select",
+                            "default": 1,
+                            "label": "Level",
+                            "ref": "level",
+                            "type": "heading"
+                        },
+                        {
+                            "component": "select",
+                            "label": "Size",
+                            "ref": "size",
+                            "type": "size"
+                        },
+                        {
+                            "component": "select",
+                            "label": "Weight",
+                            "ref": "weight",
+                            "type": "weight"
+                        },
+                        {
+                            "component": "select",
+                            "label": "Style",
+                            "ref": "style",
+                            "type": "style"
+                        }
+                    ],
+                    "label": "Customizations"
+                }
+            ],
+            "name": "heading"
+        },
+        {
+            "content": {
+                "text": "Enter paragraph text"
+            },
+            "customizations": {
+                "size": "",
+                "style": "",
+                "weight": ""
+            },
+            "customizer": [
+                {
+                    "category": "content",
+                    "items": [
+                        {
+                            "component": "input",
+                            "label": "Text",
+                            "ref": "text",
+                            "type": "text"
+                        }
+                    ],
+                    "label": "Content"
+                },
+                {
+                    "category": "customizations",
+                    "items": [
+                        {
+                            "component": "select",
+                            "label": "Size",
+                            "ref": "size",
+                            "type": "size"
+                        },
+                        {
+                            "component": "select",
+                            "label": "Weight",
+                            "ref": "weight",
+                            "type": "weight"
+                        },
+                        {
+                            "component": "select",
+                            "label": "Style",
+                            "ref": "style",
+                            "type": "style"
+                        }
+                    ],
+                    "label": "Customizations"
+                }
+            ],
+            "name": "paragraph"
+        },
+        {
+            "content": {
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis nobis fugit, nisi, laboriosam repellat ex eum unde iure nihil voluptatum in odit illum adipisci velit autem dolorem.",
+                "heading": "Lorem ipsum sit amet, consectetur."
+            },
+            "customizations": {
+                "size": "text-3xl",
+                "style": "italic",
+                "weight": "font-medium"
+            },
+            "customizer": [
+                {
+                    "category": "content",
+                    "items": [
+                        {
+                            "component": "input",
+                            "label": "Heading",
+                            "ref": "heading",
+                            "type": "text"
+                        },
+                        {
+                            "component": "input",
+                            "label": "Description",
+                            "ref": "description",
+                            "type": "text"
+                        }
+                    ],
+                    "label": "Content"
+                },
+                {
+                    "category": "customizations",
+                    "items": [
+                        {
+                            "component": "select",
+                            "label": "Size",
+                            "ref": "size",
+                            "type": "size"
+                        },
+                        {
+                            "component": "select",
+                            "label": "Weight",
+                            "ref": "weight",
+                            "type": "weight"
+                        },
+                        {
+                            "component": "select",
+                            "label": "Style",
+                            "ref": "style",
+                            "type": "style"
+                        }
+                    ],
+                    "label": "Customizations"
+                }
+            ],
+            "name": "hero"
+        }
+    ],
+    "name": "page1",
+    "updated": "2025-07-29 17:42:09.176Z"
+}
